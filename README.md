@@ -1,65 +1,36 @@
-# Copy Website BanG Dream Using React
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Proyek ini merupakan replika tampilan website BanG Dream yang dibangun menggunakan React untuk *frontend* dan (opsional) Node.js untuk *backend* (jika ada fitur dinamis). Proyek ini ditujukan sebagai latihan pembelajaran React dan pengembangan *frontend*.
+## Getting Started
 
-## Teknologi yang Digunakan
+First, run the development server:
 
-*   **Frontend:**
-    *   [React](https://reactjs.org/): Pustaka JavaScript untuk membangun antarmuka pengguna.
-    *   (Sebutkan *library* UI jika ada, contoh: Material UI, React Bootstrap, dll.)
-    *   (Sebutkan *state management* jika ada, contoh: Redux, Context API, dll.)
-    *   (Sebutkan *routing* jika ada, contoh: React Router)
-*   **Backend (Opsional):**
-    *   [Node.js](https://nodejs.org/): Lingkungan *runtime* JavaScript untuk *server-side*.
-    *   [Express](https://expressjs.com/): *Framework* web untuk Node.js.
-    *   (Sebutkan database jika ada, contoh: MongoDB, PostgreSQL, dll.)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Cara Penggunaan
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1.  **Instalasi Node.js dan npm (atau yarn):**
-    Pastikan Anda telah menginstal Node.js dan npm (Node Package Manager) atau yarn di sistem Anda. Anda dapat mengunduhnya dari [situs resmi Node.js](https://nodejs.org/).
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-2.  **Clone repositori ini:**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-    ```bash
-    git clone <URL_repositori>
-    cd <nama_folder_proyek>
-    ```
+## Learn More
 
-3.  **Instal dependensi *frontend*:**
+To learn more about Next.js, take a look at the following resources:
 
-    ```bash
-    cd client // atau folder frontend Anda
-    npm install  // atau yarn install
-    ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-4.  **(Jika ada backend) Instal dependensi *backend*:**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-    ```bash
-    cd server // atau folder backend Anda
-    npm install  // atau yarn install
-    ```
+## Deploy on Vercel
 
-5.  **Konfigurasi (Jika diperlukan):**
-    *   (Jelaskan konfigurasi yang dibutuhkan, contoh: pengaturan *environment variable*, koneksi database, dll. Jika ada berkas `.env.example`, sebutkan untuk di-rename menjadi `.env` dan diisi dengan nilai yang sesuai.)
-    *   Contoh: Rename `.env.example` menjadi `.env` di folder `server` dan isi dengan konfigurasi database Anda.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-6.  **Jalankan aplikasi:**
-
-    *   **Frontend:**
-
-        ```bash
-        cd client
-        npm start // atau yarn start
-        ```
-
-    *   **Backend (Jika ada):**
-
-        ```bash
-        cd server
-        npm run dev // atau perintah lain yang sesuai dengan script Anda
-        ```
-
-7.  Buka browser Anda dan kunjungi `http://localhost:3000` (atau port yang sesuai dengan konfigurasi Anda) untuk melihat aplikasi.
-
-## Struktur Proyek (Contoh)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
